@@ -41,6 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9CA7ADA1D330F2200507CF1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E9F3EC331D33080600152552 /* AppDelegate.h */,
+				E9F3EC341D33080600152552 /* AppDelegate.m */,
+				E9F3EC441D33080600152552 /* Info.plist */,
+				E9F3EC3C1D33080600152552 /* Doorstep.xcdatamodeld */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		E9CA7ADB1D330F3300507CF1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9F3EC361D33080600152552 /* ViewController.h */,
+				E9F3EC371D33080600152552 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E9CA7ADC1D330F3E00507CF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9F3EC391D33080600152552 /* Main.storyboard */,
+				E9F3EC3F1D33080600152552 /* Assets.xcassets */,
+				E9F3EC411D33080600152552 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E9CA7ADF1D330F6500507CF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E9F3EC241D33080500152552 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +97,10 @@
 		E9F3EC2F1D33080600152552 /* Doorstep */ = {
 			isa = PBXGroup;
 			children = (
-				E9F3EC331D33080600152552 /* AppDelegate.h */,
-				E9F3EC341D33080600152552 /* AppDelegate.m */,
-				E9F3EC361D33080600152552 /* ViewController.h */,
-				E9F3EC371D33080600152552 /* ViewController.m */,
-				E9F3EC391D33080600152552 /* Main.storyboard */,
-				E9F3EC3F1D33080600152552 /* Assets.xcassets */,
-				E9F3EC411D33080600152552 /* LaunchScreen.storyboard */,
-				E9F3EC441D33080600152552 /* Info.plist */,
-				E9F3EC3C1D33080600152552 /* Doorstep.xcdatamodeld */,
+				E9CA7ADA1D330F2200507CF1 /* Main */,
+				E9CA7ADF1D330F6500507CF1 /* Model */,
+				E9CA7ADB1D330F3300507CF1 /* Controller */,
+				E9CA7ADC1D330F3E00507CF1 /* View */,
 				E9F3EC301D33080600152552 /* Supporting Files */,
 			);
 			path = Doorstep;
@@ -306,6 +338,7 @@
 				E9F3EC491D33080600152552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
